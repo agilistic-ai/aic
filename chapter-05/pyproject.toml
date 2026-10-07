@@ -1,0 +1,22 @@
+[project]
+name = "aic-chapter-5"
+version = "1.0.0"
+description = "AI Cookbook Chapter 5 complete application."
+requires-python = ">=3.12"
+dependencies = [
+  "matplotlib==3.11.2",
+  "openai==2.54.0",
+  "ollama==0.6.3",
+  "pydantic==2.13.5",
+  "httpx[socks]==0.28.1",
+]
+
+[project.scripts]
+reporting = "ai_cookbook.reporting_cli:main"
+
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_cookbook"]

@@ -1,0 +1,22 @@
+[project]
+name = "aic-chapter-1"
+version = "1.0.0"
+description = "AI Cookbook Chapter 1: turn a supplied note into a validated task."
+requires-python = ">=3.12"
+dependencies = [
+  "openai==2.54.0",
+  "ollama==0.6.3",
+  "pydantic==2.13.5",
+  "httpx[socks]==0.28.1",
+]
+
+[project.scripts]
+note-to-task = "ai_cookbook.note_to_task:main"
+evaluate-tasks = "ai_cookbook.evaluation:main"
+
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_cookbook"]

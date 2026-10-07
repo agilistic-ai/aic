@@ -1,0 +1,22 @@
+{
+  "purpose": "Invite residents to the workshop without adding promises.",
+  "audience": "Local residents, including first-time attendees.",
+  "tone": "Warm, direct, and practical; avoid promotional claims.",
+  "variant_language": "Spanish",
+  "word_limits": {"summary": 85, "rewrite": 150, "variant": 170},
+  "required_literals": [
+    "Northside Repair Workshop", "Elm Community Room",
+    "2026-11-07", "10:00", "13:00", "20"
+  ],
+  "must_keep": [
+    "Advance booking is required; there are 20 places.",
+    "Assessment is free, but parts cost extra with prior approval.",
+    "Volunteers attempt repairs without guaranteeing success.",
+    "The entrance is step-free; the accessible toilet is unavailable."
+  ],
+  "variant_terms": {"assessment": "evaluación"},
+  "style_example": {
+    "source": "Collection is possible after confirmation.",
+    "rewrite": "Once we confirm, you can collect your item."
+  }
+}

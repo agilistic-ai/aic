@@ -1,0 +1,7 @@
+{
+  "daily_microusd": 10000000,
+  "ceiling_microusd": {
+    "answer": 100000,
+    "booking": 500000
+  }
+}

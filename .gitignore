@@ -1,0 +1,27 @@
+# Local environments and build output
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+# Credentials and application working data
+.env
+.env.*
+!.env.example
+runs/
+backups/
+restored/
+*.token
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/

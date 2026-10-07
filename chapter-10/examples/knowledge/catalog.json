@@ -1,0 +1,14 @@
+{
+  "november": {
+    "version": "1", "path": "november.txt",
+    "title": "November workshop notice", "groups": ["members"]
+  },
+  "may": {
+    "version": "1", "path": "may.txt",
+    "title": "May workshop archive", "groups": ["members"]
+  },
+  "organizers": {
+    "version": "1", "path": "organizers.txt",
+    "title": "Organizer contingency note", "groups": ["organizers"]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "conflicting_times": "Raise an unresolved timing question; withhold approval rather than choosing or blending times.",
+  "unsupported_promise": "Raise a question about the unsupported promise; the sources do not permit free parts or guaranteed repairs.",
+  "impossible_budget": "Raise a budget question or produce a draft held by mechanical checks; no approval as-is."
+}

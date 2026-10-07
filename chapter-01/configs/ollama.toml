@@ -1,0 +1,4 @@
+[model]
+provider = "ollama"
+name = "qwen2.5:7b"
+timeout_seconds = 120

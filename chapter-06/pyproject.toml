@@ -1,0 +1,24 @@
+[project]
+name = "aic-chapter-6"
+version = "1.0.0"
+description = "AI Cookbook Chapter 6 complete application."
+requires-python = ">=3.12"
+dependencies = [
+  "langgraph-checkpoint-sqlite==3.1.1",
+  "langgraph==1.2.12",
+  "mcp==1.30.0",
+  "openai==2.54.0",
+  "ollama==0.6.3",
+  "pydantic==2.13.5",
+  "httpx[socks]==0.28.1",
+]
+
+[project.scripts]
+booking = "ai_cookbook.booking_run:main"
+
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_cookbook"]

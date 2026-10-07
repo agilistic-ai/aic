@@ -1,0 +1,5 @@
+[project]
+name="aic-coding-harness"
+version="1.0.0"
+requires-python=">=3.12,<3.13"
+dependencies=["openhands-sdk==1.51.0", "openhands-tools==1.51.0"]
