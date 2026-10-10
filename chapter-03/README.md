@@ -98,3 +98,11 @@ uv run --locked python -m unittest discover -s tests -v
 The tests use genuine installed OpenAI and Ollama SDKs against scripted loopback HTTP responses. They exercise the installed command line, file persistence, review decisions, and export with no provider credentials or model weights. See `SMOKE_REPORT.md` for the completed run and its limits. The fixture text in `tests/fixtures/` is test data, not evidence of model output or qualified translation review.
 
 This ZIP contains application-owned code, tests, examples, and configuration/dependency metadata. It contains no third-party implementation, virtual environment, or model weights.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

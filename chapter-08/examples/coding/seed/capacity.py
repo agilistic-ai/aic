@@ -1,3 +1,9 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 def remaining(capacity, bookings):
     if type(capacity) is not int or capacity < 0:
         raise ValueError("Capacity must be a nonnegative integer.")

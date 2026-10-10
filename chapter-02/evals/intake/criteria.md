@@ -11,3 +11,9 @@ Only the complete rules grammar can produce `ready` automatically. Every model p
 Run each example as its own uniquely named `.txt` file, then inspect `intake show KEY` against its label. Record the model/configuration fingerprint, correct fields, unresolved cases, and elapsed reviewer time. Compare with the rules-only baseline on the same sources. Changing a prompt after seeing holdout mistakes turns those cases into development data; add fresh holdouts.
 
 The included automated smoke suite tests application controls with scripted HTTP responses. It doesn't measure these semantic acceptance criteria against a live model.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](../../LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](../../DISCLAIMER.md).

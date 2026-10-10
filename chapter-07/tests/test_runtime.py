@@ -1,3 +1,9 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 """Actual LangChain providers and agent; scripted HTTP replies, not live inference."""
 from contextlib import contextmanager
 from functools import partial

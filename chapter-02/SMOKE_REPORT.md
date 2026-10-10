@@ -37,3 +37,9 @@ No live OpenAI request or live Ollama inference was performed. No credentials, l
 The pending-resume check reconstructs the saved checkpoint; it doesn't kill a process mid-transaction. This is a local, single-worker prototype. Multi-worker stress, authentication, real downstream dispatch, and production-scale performance weren't tested or implemented.
 
 After the clean run, this report was added to the final ZIP. Application source, tests, configuration, dependency lock, and examples remained byte-for-byte identical to the tested archive.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

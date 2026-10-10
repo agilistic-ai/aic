@@ -1,3 +1,9 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 import json,shutil,sqlite3,subprocess,sys,tempfile,unittest,hashlib
 from pathlib import Path
 from sdk_fixture import serving

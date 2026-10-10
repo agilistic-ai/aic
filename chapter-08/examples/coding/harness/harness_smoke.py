@@ -1,3 +1,9 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 """Import/configuration smoke only; does not execute agent tools or call a model."""
 import inspect
 import os

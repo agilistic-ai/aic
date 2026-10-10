@@ -24,3 +24,9 @@ Ran 11 tests in 15.485s
 
 OK
 ```
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

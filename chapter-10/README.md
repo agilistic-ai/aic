@@ -78,3 +78,11 @@ uv run python -m unittest discover -s tests -v
 ```
 
 The clean-install suite starts the real Uvicorn/FastAPI API and actual worker subprocesses. Genuine provider SDK requests go to a scripted local HTTP service. Tests cover duplicate requests/approvals, cross-user denial, renewed approval after expiry, bounded failed attempts, saved-answer revocation, real LangGraph recovery after commit but before checkpoint, protected usage records, and restoration of the original receipt. No live inference or external booking service is claimed. Bookings use the chapter's real local SQLite service. See SMOKE_REPORT.md for results.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

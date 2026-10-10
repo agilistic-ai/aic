@@ -1,4 +1,12 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 [project]
+license = "MIT"
+license-files = ["LICENSE.txt", "DISCLAIMER.md"]
 name = "aic-chapter-7"
 version = "1.0.0"
 description = "AI Cookbook Chapter 7 complete application."

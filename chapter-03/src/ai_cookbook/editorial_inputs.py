@@ -1,3 +1,9 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 """Validate small UTF-8 source packets and briefs before making a model call."""
 import json
 from pathlib import Path

@@ -32,3 +32,11 @@ uv run --locked python -m unittest discover -s tests -v
 Tests include actual SQLite authorization/limits, reference arithmetic, missing contribution amounts, and the complete installed CLI with real OpenAI and Ollama SDKs pointed at scripted local HTTP responses. The smoke run creates and inspects a real SVG chart. No live inference or model-quality evaluation was performed. See `SMOKE_REPORT.md`.
 
 Exit 0 means successful initialization or a saved report, including clarification. Exit 2 means operational or validation failure. There is no automatic model retry, publication, or database modification in the question path. No third-party software or weights are bundled.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

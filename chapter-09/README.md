@@ -49,3 +49,11 @@ uv run python -m unittest discover -s tests -v
 ```
 
 The suite installs and invokes the complete CLI, uses real Pillow/PDF/WAV parsing, and sends actual OpenAI/Ollama SDK requests to a local scripted HTTP service. It checks staged and joint intake, PDF extraction, conflicting model markings, stale review rejection, corrections, streamed speech output, and failed-stage preservation. The silence and generated label in tests are transport fixtures, not speech/vision accuracy evidence. Live hosted or local inference was not tested. See SMOKE_REPORT.md.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

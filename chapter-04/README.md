@@ -33,3 +33,11 @@ uv run --locked python -m unittest discover -s tests -v
 Control tests cover extraction, permission revocation during requests, stale sources, citations and matching. The installed CLI smoke test exercises genuine Ollama list/embedding/chat and OpenAI Responses SDK calls against a loopback server, including indexing, reranking and answer validation. No live model or embedding-quality evaluation was performed. See `SMOKE_REPORT.md`.
 
 The chapter's `evidence_coverage` helper is included in `ai_cookbook.evaluation`. Label required document/span pairs before live evaluation and assess evidence coverage separately from answer fidelity. The archive contains no third-party software or model weights.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

@@ -42,3 +42,11 @@ AIC_BROWSER_SMOKE=1 uv run python -m unittest discover -s tests -v
 The default suite exercises the actual LangChain agent and both provider integrations against scripted HTTP tool-call responses. A local site serves static pages for those tests; SQLite monitoring and filesystem notification export are real. It checks a changed price, duplicate processing, citation rejection, and baseline preservation. These are transport/integration tests, not evidence of live model quality.
 
 Browser rendering has a separate opt-in test against the included JavaScript fixture. Chromium installation failed in the build environment, so that test was not run there. Live hosted/Ollama inference and external websites were not tested. See SMOKE_REPORT.md for the exact clean-install result.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

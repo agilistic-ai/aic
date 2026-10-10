@@ -92,3 +92,11 @@ The tests use actual installed OpenAI and Ollama SDKs against a loopback HTTP fi
 The labeled development and holdout cases are in `evals/intake/`. Follow `criteria.md` to compare interpretations and reviewer effort against a real configured model. These labels are provided for evaluation; they aren't claims of live-model results.
 
 This archive contains application-owned source, tests, configuration templates, and examples. Dependency pins and `uv.lock` describe separately installed packages; no third-party implementation or model weights are bundled.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

@@ -1,6 +1,8 @@
 # Source archives
 
-Imported on October 7, 2026. Application source, tests, configuration, fixtures, and lockfiles are preserved byte-for-byte from these archives. Chapter README wording was adjusted only where an old extracted-directory name would conflict with the repository layout. The original smoke reports are historical release evidence.
+Imported on October 7, 2026. At import, application source, tests, configuration, fixtures, and lockfiles were preserved byte-for-byte from these archives. Chapter README wording was adjusted only where an old extracted-directory name would conflict with the repository layout. The original smoke reports are historical release evidence.
+
+On October 10, 2026, the repository gained copyright notices, the MIT license, and warranty/liability disclaimers. Source comments, documentation, package license metadata, and Docker inclusion of the notice files were updated. The checksums below still identify the original archives, not a newly packaged release. Dependency pins and application logic were not changed.
 
 | Chapter | Original file | SHA-256 |
 | --- | --- | --- |
@@ -18,3 +20,9 @@ Imported on October 7, 2026. Application source, tests, configuration, fixtures,
 | 12 | `AIC_Chapter_12_Draft_v1.md` | `4400a2790921d93a4fbea4d09670cb781e6a69d44066bfe3db09a81c74ded66b` |
 
 Only the code blocks from the Chapter 11–12 drafts are reproduced, unchanged, in the matching snippet guides. Their explanatory wrappers describe dependencies and assumptions; they do not add runnable applications.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

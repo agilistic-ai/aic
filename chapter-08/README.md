@@ -44,3 +44,11 @@ AIC_CODING_SMOKE_IMAGE=sha256:YOUR_IMAGE_ID uv run python -m unittest discover -
 The default suite runs authored good and bad candidates, validates the generated patch with `git apply --check`, checks timeout/output limits, and runs the installed CLI with a clearly controlled Docker executable fixture. That fixture checks process integration and the arguments sent to Docker; it does not establish container isolation. Only trusted test-authored code is executed locally by those tests.
 
 Docker and a live local model service were unavailable in the build environment. Consequently the real container/agent/acceptance end-to-end test was skipped. The opt-in test above runs that full path on a prepared host. No live model repair is claimed by the default smoke result. The OpenHands harness has its own import/configuration check in `harness_smoke.py`; run it after installing the harness dependencies.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

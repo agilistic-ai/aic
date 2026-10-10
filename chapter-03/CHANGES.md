@@ -11,3 +11,9 @@ The review page now displays the fact plan the chapter asks reviewers to inspect
 Commands now cover generation, inspection, draft extraction, corrections, approval, export, and usage comparison. A correction creates a new package with its parent fingerprint and editor's reason. It doesn't carry forward approvals or erase generation questions. The original package remains available.
 
 The chapter preserves its five original main sections and aligns its printed modules and commands with the runnable package. HTML rendering, input/package schemas, CLI wiring, and snapshot support are supplied in the download rather than printed in full. The static AIC outline is unchanged.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

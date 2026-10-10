@@ -45,3 +45,11 @@ See [VALIDATION.md](VALIDATION.md) for the repository import checks and current 
 The code and lockfiles came from the completed chapter application archives. [SOURCE_ARCHIVES.md](SOURCE_ARCHIVES.md) records their names and checksums. The repository adds navigation and snippet explanations; it doesn't include the book manuscript or illustrations.
 
 Keep real credentials and working records out of Git. The `.env.example` files are templates; each chapter's `runs/` folder is private working data. The examples intentionally distinguish a proposed result from an approved or verified action—keep those boundaries when adapting them.
+
+## Copyright, license, and disclaimer
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+You may run, copy, modify, and redistribute these examples, including as part of commercial applications, under the [MIT License](LICENSE.txt). Keep the copyright and permission notices with copies or substantial portions. Agilistic AI LLC retains copyright; "All Rights Reserved" is subject to this license grant.
+
+The materials come with **no warranty**. Use them at your own risk, review generated outputs and actions, and account for external service charges. Read the [full disclaimer](DISCLAIMER.md) for warranty and liability provisions. Third-party dependencies retain their own licenses and terms.

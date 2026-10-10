@@ -1,5 +1,19 @@
 # Repository validation
 
+## Copyright and licensing update — October 10, 2026
+
+Added the MIT License and a warranty/liability disclaimer to the repository root, all twelve chapter directories, and Chapter 8's separately usable harness and seed directories. Added notices to the 139 Python files, authored configuration and SQL/HTML examples, Dockerfiles, dependency requirement listings, and repository documentation. Chapters 11–12 remain Markdown-only snippet guides.
+
+All 139 Python files compile and have the same abstract syntax trees as the October 7 import, excluding source locations. All eleven Chapter 11–12 code blocks are unchanged. The 29 TOML files retain their original settings and dependencies, with only license metadata added to the eleven project manifests. All eleven lockfiles and all 32 JSON, JSONL, and plain-text example fixtures remain byte-for-byte unchanged. Local Markdown links and `git diff --check` pass.
+
+Reinstalled all ten application packages with `uv sync --locked --no-editable` on Linux/Python 3.12.14 and reran each existing `unittest` suite. **123 tests passed, 2 optional tests were skipped, and 0 failed.** Per-chapter counts match the import table below. The skipped checks still require the optional real browser and Docker/model-service setup; no live model or paid service testing is claimed.
+
+Each of the ten installed packages reports `License-Expression: MIT` and includes exact copies of `LICENSE.txt` and `DISCLAIMER.md`. Both Dockerfiles now copy these notices into their images; their COPY source paths were verified, but images were not rebuilt. The Chapter 8 seed, including its notices, remains within the existing snapshot size and file-count limits. No application logic or dependency pins changed.
+
+The archive checksums in `SOURCE_ARCHIVES.md` identify the original inputs. They are not checksums for this updated repository.
+
+## Original repository import — October 7, 2026
+
 Checked October 7, 2026 on Linux with Python 3.12.14.
 
 Each Chapter 1–10 project was installed into its own fresh virtual environment using `uv sync --locked --no-editable`. Its installed Python then ran `-m unittest discover -s tests -v`. No application source or dependency pins needed changing. Two transient dependency-download failures succeeded on retry with the same locked versions.
@@ -33,3 +47,9 @@ uv run --locked --no-sync python -m unittest discover -s tests -v
 ```
 
 Follow the individual README for optional runtime checks and live-model evaluation. Chapter 11–12 snippets were syntax-checked, not assembled or advertised as full applications.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

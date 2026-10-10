@@ -32,3 +32,9 @@ Separate harness check (installed locked dependencies, not Docker):
 OpenHands 1.51.0 imports, agent/tool construction, and conversation arguments passed.
 No container, tool execution, or model inference was exercised.
 ```
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

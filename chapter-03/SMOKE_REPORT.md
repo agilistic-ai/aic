@@ -39,3 +39,9 @@ No live hosted inference or live Ollama model run was performed. Provider creden
 The receipt system is a local prototype for preventing accidental stale approval. It isn't authenticated, tamper-proof approval infrastructure. Crash/power-loss recovery, concurrent writers, production-scale performance, and external publication weren't tested or implemented.
 
 After the clean run, this report was added to the final ZIP. Source, tests, examples, configuration, and dependency metadata remained byte-for-byte identical to the tested archive. The ZIP contains no installed dependencies or model weights.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

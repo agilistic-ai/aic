@@ -11,3 +11,9 @@ Configuration and credentials are loaded at request time rather than import time
 A real SDK import initially failed in an environment with a configured SOCKS proxy because socksio was missing. The package now declares httpx with its socks extra, and that dependency is captured in uv.lock. The real SDKs subsequently passed the fixture HTTP smoke suite.
 
 No model weights, third-party source packages, credentials, virtual environment, or private user inputs are distributed in the source archive.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).

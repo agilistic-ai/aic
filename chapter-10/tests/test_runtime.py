@@ -1,3 +1,9 @@
+# Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+# SPDX-License-Identifier: MIT
+#
+# Provided without warranty. Use at your own risk.
+# See LICENSE.txt and DISCLAIMER.md in this project for terms.
+
 """Real Uvicorn HTTP API, worker subprocesses, provider SDKs, checkpoints and SQLite."""
 import hashlib,json,os,socket,sqlite3,subprocess,sys,tempfile,time,unittest
 from pathlib import Path

@@ -11,3 +11,9 @@ The folders under `live/` each contain runnable sources and a brief. The expecte
 For a blinded assessment, hide the method, fact plan, and call metadata initially. Supply each draft with the common original sources and brief. Record accepted/rejected, defect type, corrected wording, reviewer minutes, and any unresolved question. Reveal methods afterward and use `editorial compare` for generation metrics. A lower call count or an empty mechanical flag list isn't proof of useful output.
 
 Retain the package fingerprint with each assessment. Corrections are new packages. Changing the audience, translation language, or document purpose needs fresh examples and qualified review for that use.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](../../LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](../../DISCLAIMER.md).

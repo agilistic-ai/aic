@@ -11,3 +11,9 @@ Input reads are bounded before import. Oversized files receive a visible `not_im
 The new CLI covers queue inspection, version-bound editable review files, decisions, and ready-record export for a specified recipe. Exports retain the complete source. Unknown files/cases and invalid review input produce concise errors. The original module-style batch entry point is retained.
 
 The revised chapter preserves all five original main sections and aligns its printed modules and commands with the download. Shared adapter code and the CLI/snapshot support modules are in the download rather than repeated in full in the chapter. The static AIC outline document is unchanged.
+
+---
+
+Copyright (c) 2026, Agilistic AI LLC, All Rights Reserved
+
+Licensed under the [MIT License](LICENSE.txt). Provided without warranty; use at your own risk. See the [disclaimer](DISCLAIMER.md).
